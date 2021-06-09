@@ -22,7 +22,9 @@
 // SOFTWARE.
 
 #import <Foundation/Foundation.h>
+#if !TARGET_OS_OSX
 #import <UIKit/UIDevice.h>
+#endif
 #if __has_include("RCTBridgeModule.h")
 #import "RCTBridgeModule.h"
 #import "RCTLog.h"
